@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'pwd'
-                build : '7-2'
+                build :'7-2'
             }
         }
     }
